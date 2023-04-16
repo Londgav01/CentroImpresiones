@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="587.0" prefWidth="889.0" style="-fx-background-color: #b1b1b3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edu.uniquindio.centroImpresion.controllers.PrincipalController">
+   <children>
+      <Polygon fill="DIMGRAY" layoutX="50.0" layoutY="560.0" points="-50.0, 40.0, 35.600006103515625, -38.39996337890625, -50.0, -80.0" stroke="DIMGRAY" strokeType="INSIDE" AnchorPane.bottomAnchor="1.6929300308227084" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="803.3999938964844" AnchorPane.topAnchor="480.0">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#454546" layoutX="173.0" layoutY="545.0" points="-151.39999389648438, 55.0, 43.0, 55.0, -75.39999389648438, -14.5999755859375" stroke="#454546" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#252525" layoutX="156.0" layoutY="490.0" points="-63.20001220703125, 21.20001220703125, 53.5999755859375, 40.4000244140625, -156.0, -17.20001220703125" stroke="#252525" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#454546" layoutX="394.0" layoutY="557.0" points="-45.20001220703125, 40.0, 50.0, 40.0, 6.79998779296875, -33.79998779296875" stroke="#454546" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polyline fill="#8e8e8e" layoutX="292.0" layoutY="530.0" points="-8.79998779296875, 20.4000244140625, 46.4000244140625, 70.00006103515625, -50.0, 70.00006103515625, -180.79998779296875, -6.0" stroke="#8e8e8e" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <Polygon fill="#454546" layoutX="266.0" layoutY="487.0" points="-50.0, 40.0, 94.0, 52.4000244140625, 6.79998779296875, -13.20001220703125" stroke="#454546" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="DIMGRAY" layoutX="349.0" layoutY="520.0" points="-10.5999755859375, 67.20001220703125, 11.0, 36.0, -53.0, 29.60003662109375" stroke="DIMGRAY" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polyline fill="#797979" layoutX="210.0" layoutY="458.0" points="-177.20001220703125, 18.79998779296875, 47.5999755859375, 18.79998779296875, 0.0, 60.0, -177.20001220703125, 18.79998779296875" stroke="#797979" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <Polygon fill="#dededf" layoutX="572.0" layoutY="560.0" stroke="#dededf" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Polygon>
+      <Polyline fill="#8e8e8e" layoutX="494.0" layoutY="530.0" points="-85.20001220703125, -8.39996337890625, 40.4000244140625, 16.4000244140625, 13.20001220703125, 70.79998779296875, -37.20001220703125, 70.79998779296875" stroke="#8e8e8e" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <Polyline cache="true" fill="#252525" layoutX="530.0" layoutY="483.0" points="-89.20001220703125, -6.20001220703125, 39.5999755859375, -6.20001220703125, 4.4000244140625, 53.0, -121.20001220703125, 28.20001220703125" stroke="#252525" strokeType="INSIDE" style="-fx-blend-mode: SRC_OVER;">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <Polygon fill="#454546" layoutX="831.0" layoutY="560.0" stroke="#454546" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Polygon>
+      <Polygon fill="#252525" layoutX="824.0" layoutY="437.0" points="7.199951171875, 31.0, 64.0, 146.20001220703125, 64.0, 31.0" stroke="#252525" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#8e8e8e" layoutX="368.0" layoutY="460.0" points="3.20001220703125, 77.5999755859375, 51.20001220703125, 16.79998779296875, -73.5999755859375, 16.79998779296875" stroke="#8e8e8e" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#252525" layoutX="724.0" layoutY="534.0" points="-57.20001220703125, -60.0, 0.0, 64.800048828125, 0.0, -60.0" stroke="#252525" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polyline fill="DIMGRAY" layoutX="631.0" layoutY="532.0" points="-41.4000244140625, -57.5999755859375, 76.199951171875, 68.800048828125, 7.4000244140625, 68.800048828125, -50.20001220703125, -38.4000244140625" stroke="#454546" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <Polygon fill="#8e8e8e" layoutX="630.0" layoutY="501.0" points="-23.0, -26.20001220703125, 76.199951171875, 85.0, 21.0, -26.20001220703125" stroke="#8e8e8e" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#dededf" layoutX="788.0" layoutY="560.0" points="-50.0, 40.0, -22.4000244140625, 40.0, -44.0, -42.4000244140625" stroke="#dededf" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polygon fill="#8e8e8e" layoutX="766.0" layoutY="528.0" points="-7.5999755859375, -16.79998779296875, 7.5999755859375, 56.79998779296875, 50.800048828125, -28.0" stroke="#8e8e8e" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polygon>
+      <Polyline fill="DIMGRAY" layoutX="745.0" layoutY="440.0" points="75.800048828125, 33.5999755859375, 68.5999755859375, 52.79998779296875, -7.0, 66.4000244140625, -9.0, 33.5999755859375" stroke="#454546" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Polyline>
+      <AnchorPane layoutX="67.0" layoutY="114.0" prefHeight="334.0" prefWidth="754.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 10px; -fx-border-style: ridge;">
+         <children>
+            <Button fx:id="botonAdmin" layoutX="135.0" layoutY="125.0" mnemonicParsing="false" onAction="#abrirAdmin" prefHeight="30.0" prefWidth="194.0" text="PRESIONE AQUÍ">
+               <font>
+                  <Font name="Cooper Black" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="botonImpresiones" alignment="BOTTOM_CENTER" layoutX="126.0" layoutY="266.0" mnemonicParsing="false" onAction="#abrirImpresiones" prefHeight="33.0" prefWidth="210.0" text="PRINT-DOCS" textAlignment="CENTER">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Label layoutX="135.0" layoutY="95.0" prefHeight="30.0" prefWidth="194.0" text="Administración de impresoras">
+               <font>
+                  <Font name="Cooper Black" size="12.0" />
+               </font>
+            </Label>
+            <VBox layoutX="437.0" layoutY="4.0" prefHeight="367.0" prefWidth="314.0" style="-fx-background-color: #4a4a4a; -fx-border-insets: 10px;" AnchorPane.bottomAnchor="2.400000000000034" AnchorPane.leftAnchor="436.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="1.3999999999999773">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ImageView fitHeight="323.0" fitWidth="319.0">
+                     <image>
+                        <Image url="@../../../../../../../../../../../Impresiones%20UQ.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <Label layoutX="180.0" layoutY="247.0" prefHeight="18.0" prefWidth="95.0" text="IMPRESIONES">
+               <font>
+                  <Font name="Cooper Black" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Line endX="68.0" endY="9.20001220703125" layoutX="216.0" layoutY="542.0" startX="-104.79997253417969" startY="-18.0" stroke="#8e8e8e" />
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

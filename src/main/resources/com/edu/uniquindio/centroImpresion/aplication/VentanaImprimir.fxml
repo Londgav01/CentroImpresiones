@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="printWindow" prefHeight="633.0" prefWidth="871.0" style="-fx-background-color: #555454; -fx-border-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edu.uniquindio.centroImpresion.controllers.ImprimirController">
+   <children>
+      <Pane layoutX="17.0" layoutY="20.0" prefHeight="598.0" prefWidth="839.0" style="-fx-background-color: white; -fx-blend-mode: SCREEN;">
+         <children>
+            <TextArea fx:id="text" layoutX="14.0" layoutY="14.0" prefHeight="574.0" prefWidth="508.0" style="-fx-border-color: black;" wrapText="true">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></TextArea>
+            <Button fx:id="printButton" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="620.0" layoutY="477.0" mnemonicParsing="false" onAction="#imprimirDoc" prefHeight="107.0" prefWidth="123.0" style="-fx-border-color: black;" text="PRINT-DOC" textAlignment="CENTER">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../../../../../../Downloads/5677787.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="573.0" layoutY="14.0" text="IMPRESIONES">
+               <font>
+                  <Font name="Cooper Black" size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="searchDocs" layoutX="636.0" layoutY="93.0" mnemonicParsing="false" onAction="#buscarDocumento" style="-fx-border-color: BLACK;" text="BUSCAR">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="602.0" layoutY="74.0" text="Selecciona un documento: ">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Separator layoutX="522.0" layoutY="14.0" orientation="VERTICAL" prefHeight="574.0" prefWidth="1.0" style="-fx-background-color: black;" />
+            <Spinner fx:id="numCopias" editable="true" layoutX="610.0" layoutY="417.0" />
+            <Label layoutX="609.0" layoutY="318.0" text="CONFIGURACIÓN">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="581.0" layoutY="462.0" prefHeight="3.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Label layoutX="655.0" layoutY="400.0" text="Prioridad">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Separator layoutX="584.0" layoutY="286.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <ChoiceBox fx:id="tipoHoja" layoutX="609.0" layoutY="355.0" prefWidth="150.0" />
+            <Separator layoutX="581.0" layoutY="47.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Separator layoutX="584.0" layoutY="160.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Label layoutX="630.0" layoutY="188.0" text="IMPRESORA:">
+               <font>
+                  <Font name="Cooper Black" size="16.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="printersList" layoutX="609.0" layoutY="219.0" prefWidth="150.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>

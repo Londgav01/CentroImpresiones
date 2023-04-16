@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminWindow" prefHeight="690.0" prefWidth="886.0" style="-fx-background-color: #4a4a4a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edu.uniquindio.centroImpresion.controllers.ImpresoraController">
+   <children>
+      <Pane layoutX="27.0" layoutY="27.0" prefHeight="636.0" prefWidth="832.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="231.0" layoutY="29.0" text="Administración">
+               <font>
+                  <Font name="Cooper Black" size="44.0" />
+               </font>
+            </Label>
+            <Label layoutX="305.0" layoutY="75.0" text="de impresoras">
+               <font>
+                  <Font name="Cooper Black" size="31.0" />
+               </font>
+            </Label>
+            <Pane layoutY="118.0" prefHeight="149.0" prefWidth="832.0" style="-fx-background-color: #979797;">
+               <children>
+                  <Label layoutX="14.0" layoutY="3.0" text="Actualización">
+                     <font>
+                        <Font name="Cooper Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <SplitMenuButton fx:id="updatedPrinters" layoutX="8.0" layoutY="42.0" mnemonicParsing="false" text="Impresora 1">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                      <MenuItem mnemonicParsing="false" text="Action 2" />
+                    </items>
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                  </SplitMenuButton>
+                  <Button fx:id="updateButton" layoutX="716.0" layoutY="100.0" mnemonicParsing="false" text="Actualizar">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="199.0" layoutY="27.0" text="Name">
+                     <font>
+                        <Font name="Cooper Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="594.0" layoutY="27.0" text="Marca">
+                     <font>
+                        <Font name="Cooper Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="394.0" layoutY="27.0" text="Estado">
+                     <font>
+                        <Font name="Cooper Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="updatedName" layoutX="199.0" layoutY="44.0" />
+                  <TextField fx:id="updatedBrand" layoutX="594.0" layoutY="44.0" />
+                  <ChoiceBox fx:id="updatedStatus" layoutX="394.0" layoutY="44.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+            <Separator layoutX="-4.0" layoutY="264.0" prefHeight="6.0" prefWidth="838.0" style="-fx-background-color: black;" />
+            <Pane layoutX="273.0" layoutY="288.0" prefHeight="296.0" prefWidth="561.0" style="-fx-background-color: #6f6f6f;">
+               <children>
+                  <Label layoutX="14.0" layoutY="6.0" text="Introducir nueva impresora" textFill="#fffefe">
+                     <font>
+                        <Font name="Cooper Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="74.0" text="Nombre:" textFill="WHITE">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="270.0" layoutY="74.0" text="Marca:" textFill="WHITE">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="158.0" text="Estado en el que entra:" textFill="WHITE">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="267.0" layoutY="158.0" text="Tipo:" textFill="WHITE">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="addButton" layoutX="463.0" layoutY="253.0" mnemonicParsing="false" text="Agregar">
+                     <font>
+                        <Font name="Cooper Black" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ChoiceBox fx:id="listNewStatus" layoutX="31.0" layoutY="184.0" prefHeight="25.0" prefWidth="172.0" />
+                  <ChoiceBox fx:id="listNewType" layoutX="267.0" layoutY="184.0" prefHeight="25.0" prefWidth="172.0" />
+                  <TextField fx:id="newName" layoutX="31.0" layoutY="93.0" prefHeight="25.0" prefWidth="172.0" />
+                  <TextField fx:id="newBrand" layoutX="267.0" layoutY="93.0" prefHeight="25.0" prefWidth="172.0" />
+               </children>
+            </Pane>
+            <Pane layoutY="288.0" prefHeight="296.0" prefWidth="243.0" style="-fx-background-color: #c6c6c6;">
+               <children>
+                  <Label layoutX="27.0" layoutY="14.0" text="Eliminar impresora">
+                     <font>
+                        <Font name="Cooper Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="delatePrinters" layoutX="47.0" layoutY="80.0" prefWidth="150.0" />
+                  <Button fx:id="delateButton" layoutX="164.0" layoutY="256.0" mnemonicParsing="false" text="Delate">
+                     <font>
+                        <Font name="Cooper Black" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="4.0" layoutY="58.0" text="Escoja la impresora que quiere eliminar:">
+                     <font>
+                        <Font name="Cooper Black" size="11.5" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Separator layoutX="273.0" layoutY="583.0" prefHeight="6.0" prefWidth="561.0" style="-fx-background-color: black;" />
+            <Separator layoutX="-1.0" layoutY="585.0" prefHeight="6.0" prefWidth="243.0" style="-fx-background-color: black;" />
+            <Button fx:id="backButton" layoutX="22.0" layoutY="597.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Back">
+               <font>
+                  <Font name="Cooper Black" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
