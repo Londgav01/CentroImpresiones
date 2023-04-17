@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.edu.uniquindio.centroImpresion.aplication","l":"Main"}];updateSearchResults();
