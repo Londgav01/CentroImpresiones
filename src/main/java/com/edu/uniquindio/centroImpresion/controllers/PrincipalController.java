@@ -4,17 +4,14 @@
 
 package com.edu.uniquindio.centroImpresion.controllers;
 
+import com.edu.uniquindio.centroImpresion.aplication.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.stage.Stage;
 
-import java.io.IOException;
 
 public class PrincipalController {
+    Main main = new Main();
 
     @FXML // fx:id="botonAdmin"
     private Button botonAdmin; // Value injected by FXMLLoader
@@ -23,17 +20,9 @@ public class PrincipalController {
     private Button botonImpresiones; // Value injected by FXMLLoader
 
     @FXML
-    void abrirAdmin(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("com/edu/uniquindio/centroImpresion/aplication/VentanaImpresora.fxml"));
-        Scene scene = new Scene(root);
-        Stage stage = new Stage();
-        stage.setScene(scene);
-        stage.show();
-    }
+    void abrirAdmin(ActionEvent event) throws Exception {}
 
     @FXML
-    void abrirImpresiones(ActionEvent event) {
-
-    }
+    void abrirImpresiones(ActionEvent event) {}
 
 }

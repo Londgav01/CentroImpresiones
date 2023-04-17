@@ -1,17 +1,31 @@
 package com.edu.uniquindio.centroImpresion.model;
 
 public class Documento {
+
+    //Atributos
     private String title;
     private String text;
     private EstadoDocumento estado;
     private PrioridadDocumento prioridad;
 
+    /**
+     * metodo construcor
+     * @param title
+     * @param text
+     * @param estado
+     * @param prioridad
+     */
     public Documento(String title, String text, EstadoDocumento estado, PrioridadDocumento prioridad) {
         this.title = title;
         this.text = text;
         this.estado = estado;
         this.prioridad = prioridad;
     }
+
+    /**
+     * Métodos getter/setter for the atributos
+     * @return
+     */
 
     public String getTitle() {
         return title;

@@ -1,6 +1,7 @@
 module com.edu.uniquindio.centroimpresion {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     exports com.edu.uniquindio.centroImpresion.controllers;

@@ -4,7 +4,6 @@
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
@@ -52,7 +51,6 @@
                </font>
             </Label>
             <Separator layoutX="522.0" layoutY="14.0" orientation="VERTICAL" prefHeight="574.0" prefWidth="1.0" style="-fx-background-color: black;" />
-            <Spinner fx:id="numCopias" editable="true" layoutX="610.0" layoutY="417.0" />
             <Label layoutX="609.0" layoutY="318.0" text="CONFIGURACIÓN">
                <font>
                   <Font name="Cooper Black" size="16.0" />
@@ -74,6 +72,7 @@
                </font>
             </Label>
             <ChoiceBox fx:id="printersList" layoutX="609.0" layoutY="219.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="prioridad" layoutX="609.0" layoutY="424.0" prefWidth="150.0" />
          </children></Pane>
    </children>
 </AnchorPane>
