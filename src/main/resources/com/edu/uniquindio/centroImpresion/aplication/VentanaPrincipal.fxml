@@ -141,7 +141,7 @@
                   <DropShadow />
                </effect>
                <children>
-                  <ImageView fitHeight="323.0" fitWidth="319.0">
+                  <ImageView fx:id="imagen" fitHeight="323.0" fitWidth="319.0">
                      <image>
                         <Image url="@../../../../../../../../../../../Impresiones%20UQ.png" />
                      </image>

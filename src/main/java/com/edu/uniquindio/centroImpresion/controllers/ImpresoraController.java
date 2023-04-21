@@ -30,8 +30,6 @@ public class ImpresoraController implements Initializable {
     @FXML // fx:id="adminWindow"
     private AnchorPane adminWindow; // Value injected by FXMLLoader
 
-    @FXML // fx:id="backButton"
-    private Button backButton; // Value injected by FXMLLoader
 
     @FXML // fx:id="delateButton"
     private Button delateButton; // Value injected by FXMLLoader

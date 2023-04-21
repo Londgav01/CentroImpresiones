@@ -127,14 +127,6 @@
             </Pane>
             <Separator layoutX="273.0" layoutY="583.0" prefHeight="6.0" prefWidth="561.0" style="-fx-background-color: black;" />
             <Separator layoutX="-1.0" layoutY="585.0" prefHeight="6.0" prefWidth="243.0" style="-fx-background-color: black;" />
-            <Button fx:id="backButton" layoutX="22.0" layoutY="597.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Back">
-               <font>
-                  <Font name="Cooper Black" size="15.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Button>
          </children>
       </Pane>
    </children>

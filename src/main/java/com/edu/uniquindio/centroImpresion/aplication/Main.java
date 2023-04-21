@@ -41,8 +41,8 @@ public class Main extends Application {
         stage.setTitle("Principal");
         stage.setScene(scene);
         stage.show();
-        abrirVentanaImpresora();
-        abrirVentanaImprimir();
+        //abrirVentanaImpresora();
+        //abrirVentanaImprimir();
     }
 
     /**
